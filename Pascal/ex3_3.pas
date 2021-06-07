@@ -3,11 +3,13 @@ var ansa, ansb, ansc: char;
 
 begin
   
+  Randomize;
+  
   writeln('Random Guess');
   
-  ansa:= chr(random(5) + 65);
-  ansb:= chr(random(5) + 65);
-  ansc:= chr(random(5) + 65);
+  ansa:= chr(random(4) + 65);
+  ansb:= chr(random(4) + 65);
+  ansc:= chr(random(4) + 65);
   
   writeln('MC answer 1 = ', ansa);
   writeln('MC answer 2 = ', ansb);
